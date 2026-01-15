@@ -1,9 +1,0 @@
-﻿Evaluation Warning: The document was created with Spire.Doc for .NET.
-Тестовый документ
-Обычный текст.
-Список
-* один
-* два
-* три
-Код
-Console.WriteLine("Hello, Markdown!");

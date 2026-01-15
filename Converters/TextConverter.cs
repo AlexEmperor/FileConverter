@@ -1,51 +1,17 @@
-﻿using Spire.Doc;
+﻿using FileConverter.Interfaces;
+using Spire.Doc;
 using Spire.Doc.Documents;
-/*using Spire.Pdf;
-using Spire.Presentation;
-using Spire.Xls;*/
 
 namespace FileConverter.Converters
 {
-    public class Converter
+    public class TextConverter : IConverter
     {
-        public void Convert(string extensionBeforeConvert, string extensionAfterConvert)
-        {
-            //1. Choose the file to convert
-            using var openFileDialog = new OpenFileDialog();
-            openFileDialog.Filter = $"{extensionBeforeConvert.ToUpper()} Files|*{extensionBeforeConvert}|All files|*.*";
-            openFileDialog.Title = $"Select File";
-
-            if (openFileDialog.ShowDialog() != DialogResult.OK)
-            {
-                return;
-            }
-
-            string filePath = openFileDialog.FileName;
-
-            //2. Choose the folder to save file
-            using var safeFileDialog = new SaveFileDialog();
-            safeFileDialog.Filter = $"{extensionAfterConvert} files|*{extensionAfterConvert}";
-            safeFileDialog.Title = $"Save file as";
-            safeFileDialog.FileName = Path.GetFileNameWithoutExtension(filePath) + $"{extensionAfterConvert}";
-
-            if (safeFileDialog.ShowDialog() != DialogResult.OK)
-            {
-                return;
-            }
-
-            string outputPath = safeFileDialog.FileName;
-
-            //3. Conversion
-            Conversion(filePath, outputPath, extensionAfterConvert);
-
-        }
-
-        public void Conversion(string filePath, string outputPath, string outputExtension)
+        public void ConvertInternal(string filePath, string outputPath, string outputExtension)
         {
             try
             {
                 // 1. Make a document container
-                Document document = new();
+                var document = new Document();
 
                 // 2. Download a path to file
                 document.LoadFromFile(filePath, FileFormat.Markdown);
@@ -69,9 +35,6 @@ namespace FileConverter.Converters
                     ".docx" => FileFormat.Docx,
                     ".html" => FileFormat.Html,
                     ".txt" => FileFormat.Txt,
-                    /* ".png" => FileFormat.,
-                     ".jpg" => FileFormat.,
-                     ".csv" => FileFormat.,*/
                     _ => throw new NotSupportedException($"Unsupported format: {outputExtension}")
                 };
 

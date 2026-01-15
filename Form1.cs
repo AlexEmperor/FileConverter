@@ -4,8 +4,6 @@ namespace FileConverter
 {
     public partial class Form1 : Form
     {
-        private readonly Converter _converter = new();
-
         public Form1()
         {
             InitializeComponent();
@@ -16,7 +14,10 @@ namespace FileConverter
             var extensionBeforeConvert = comboBox_FirstExtensions.Text;
             var extensionAfterConvert = comboBox_Extensions.Text;
 
-            _converter.Convert(extensionBeforeConvert, extensionAfterConvert);
+            var list = Conversion.GetConversionParameters(extensionBeforeConvert, extensionAfterConvert);
+            var converter = Conversion.GetConverter(extensionBeforeConvert);
+
+            converter.ConvertInternal(list[0], list[1], list[2]);
         }
     }
 }
