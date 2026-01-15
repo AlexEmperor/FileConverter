@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "tR7FEaE8DgM=",
+  "dgSpecHash": "bXQm0RuNdz0=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Sasha\\Desktop\\Образованиие\\Учебные проекты\\FileConverter\\FileConverter.csproj",
+  "projectFilePath": "C:\\Git\\FileConverter\\FileConverter.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Sasha\\.nuget\\packages\\harfbuzzsharp\\8.3.0.1\\harfbuzzsharp.8.3.0.1.nupkg.sha512",
     "C:\\Users\\Sasha\\.nuget\\packages\\harfbuzzsharp.nativeassets.macos\\8.3.0.1\\harfbuzzsharp.nativeassets.macos.8.3.0.1.nupkg.sha512",

@@ -660,11 +660,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Sasha\\Desktop\\Образованиие\\Учебные проекты\\FileConverter\\FileConverter.csproj",
+      "projectUniqueName": "C:\\Git\\FileConverter\\FileConverter.csproj",
       "projectName": "FileConverter",
-      "projectPath": "C:\\Users\\Sasha\\Desktop\\Образованиие\\Учебные проекты\\FileConverter\\FileConverter.csproj",
+      "projectPath": "C:\\Git\\FileConverter\\FileConverter.csproj",
       "packagesPath": "C:\\Users\\Sasha\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Sasha\\Desktop\\Образованиие\\Учебные проекты\\FileConverter\\obj\\",
+      "outputPath": "C:\\Git\\FileConverter\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

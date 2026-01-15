@@ -27,3 +27,33 @@ C:\Users\Sasha\Desktop\Образованиие\Учебные проекты\Fi
 C:\Users\Sasha\Desktop\Образованиие\Учебные проекты\FileConverter\obj\Debug\net8.0-windows\FileConverter.pdb
 C:\Users\Sasha\Desktop\Образованиие\Учебные проекты\FileConverter\obj\Debug\net8.0-windows\FileConverter.genruntimeconfig.cache
 C:\Users\Sasha\Desktop\Образованиие\Учебные проекты\FileConverter\obj\Debug\net8.0-windows\ref\FileConverter.dll
+C:\Git\FileConverter\bin\Debug\net8.0-windows\FileConverter.exe
+C:\Git\FileConverter\bin\Debug\net8.0-windows\FileConverter.deps.json
+C:\Git\FileConverter\bin\Debug\net8.0-windows\FileConverter.runtimeconfig.json
+C:\Git\FileConverter\bin\Debug\net8.0-windows\FileConverter.dll
+C:\Git\FileConverter\bin\Debug\net8.0-windows\FileConverter.pdb
+C:\Git\FileConverter\bin\Debug\net8.0-windows\HarfBuzzSharp.dll
+C:\Git\FileConverter\bin\Debug\net8.0-windows\Spire.Barcode.dll
+C:\Git\FileConverter\bin\Debug\net8.0-windows\Spire.Doc.dll
+C:\Git\FileConverter\bin\Debug\net8.0-windows\Spire.Email.dll
+C:\Git\FileConverter\bin\Debug\net8.0-windows\Spire.Pdf.dll
+C:\Git\FileConverter\bin\Debug\net8.0-windows\Spire.Presentation.dll
+C:\Git\FileConverter\bin\Debug\net8.0-windows\Spire.XLS.dll
+C:\Git\FileConverter\bin\Debug\net8.0-windows\runtimes\osx\native\libHarfBuzzSharp.dylib
+C:\Git\FileConverter\bin\Debug\net8.0-windows\runtimes\win-arm64\native\libHarfBuzzSharp.dll
+C:\Git\FileConverter\bin\Debug\net8.0-windows\runtimes\win-x64\native\libHarfBuzzSharp.dll
+C:\Git\FileConverter\bin\Debug\net8.0-windows\runtimes\win-x86\native\libHarfBuzzSharp.dll
+C:\Git\FileConverter\obj\Debug\net8.0-windows\FileConverter.csproj.AssemblyReference.cache
+C:\Git\FileConverter\obj\Debug\net8.0-windows\FileConverter.Form1.resources
+C:\Git\FileConverter\obj\Debug\net8.0-windows\FileConverter.csproj.GenerateResource.cache
+C:\Git\FileConverter\obj\Debug\net8.0-windows\FileConverter.GeneratedMSBuildEditorConfig.editorconfig
+C:\Git\FileConverter\obj\Debug\net8.0-windows\FileConverter.AssemblyInfoInputs.cache
+C:\Git\FileConverter\obj\Debug\net8.0-windows\FileConverter.AssemblyInfo.cs
+C:\Git\FileConverter\obj\Debug\net8.0-windows\FileConverter.csproj.CoreCompileInputs.cache
+C:\Git\FileConverter\obj\Debug\net8.0-windows\FileConverter.sourcelink.json
+C:\Git\FileConverter\obj\Debug\net8.0-windows\FileConv.4DD9517C.Up2Date
+C:\Git\FileConverter\obj\Debug\net8.0-windows\FileConverter.dll
+C:\Git\FileConverter\obj\Debug\net8.0-windows\refint\FileConverter.dll
+C:\Git\FileConverter\obj\Debug\net8.0-windows\FileConverter.pdb
+C:\Git\FileConverter\obj\Debug\net8.0-windows\FileConverter.genruntimeconfig.cache
+C:\Git\FileConverter\obj\Debug\net8.0-windows\ref\FileConverter.dll
