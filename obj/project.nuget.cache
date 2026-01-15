@@ -1,0 +1,23 @@
+{
+  "version": 2,
+  "dgSpecHash": "tR7FEaE8DgM=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Sasha\\Desktop\\Образованиие\\Учебные проекты\\FileConverter\\FileConverter.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Sasha\\.nuget\\packages\\harfbuzzsharp\\8.3.0.1\\harfbuzzsharp.8.3.0.1.nupkg.sha512",
+    "C:\\Users\\Sasha\\.nuget\\packages\\harfbuzzsharp.nativeassets.macos\\8.3.0.1\\harfbuzzsharp.nativeassets.macos.8.3.0.1.nupkg.sha512",
+    "C:\\Users\\Sasha\\.nuget\\packages\\harfbuzzsharp.nativeassets.win32\\8.3.0.1\\harfbuzzsharp.nativeassets.win32.8.3.0.1.nupkg.sha512",
+    "C:\\Users\\Sasha\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
+    "C:\\Users\\Sasha\\.nuget\\packages\\spire.barcode\\7.5.0\\spire.barcode.7.5.0.nupkg.sha512",
+    "C:\\Users\\Sasha\\.nuget\\packages\\spire.doc\\13.12.6\\spire.doc.13.12.6.nupkg.sha512",
+    "C:\\Users\\Sasha\\.nuget\\packages\\spire.email\\6.8.1\\spire.email.6.8.1.nupkg.sha512",
+    "C:\\Users\\Sasha\\.nuget\\packages\\spire.office\\10.12.0\\spire.office.10.12.0.nupkg.sha512",
+    "C:\\Users\\Sasha\\.nuget\\packages\\spire.pdf\\11.12.7\\spire.pdf.11.12.7.nupkg.sha512",
+    "C:\\Users\\Sasha\\.nuget\\packages\\spire.presentation\\10.12.0\\spire.presentation.10.12.0.nupkg.sha512",
+    "C:\\Users\\Sasha\\.nuget\\packages\\spire.xls\\15.12.0\\spire.xls.15.12.0.nupkg.sha512",
+    "C:\\Users\\Sasha\\.nuget\\packages\\system.drawing.common\\6.0.0\\system.drawing.common.6.0.0.nupkg.sha512",
+    "C:\\Users\\Sasha\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\Sasha\\.nuget\\packages\\system.text.encoding.codepages\\6.0.0\\system.text.encoding.codepages.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

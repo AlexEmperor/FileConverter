@@ -1,0 +1,307 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "HarfBuzzSharp/8.3.0.1": {
+        "dependencies": {
+          "HarfBuzzSharp.NativeAssets.Win32": "8.3.0.1",
+          "HarfBuzzSharp.NativeAssets.macOS": "8.3.0.1"
+        },
+        "runtime": {
+          "lib/net8.0/HarfBuzzSharp.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "8.3.0.1"
+          }
+        }
+      },
+      "HarfBuzzSharp.NativeAssets.macOS/8.3.0.1": {
+        "runtimeTargets": {
+          "runtimes/osx/native/libHarfBuzzSharp.dylib": {
+            "rid": "osx",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "HarfBuzzSharp.NativeAssets.Win32/8.3.0.1": {
+        "runtimeTargets": {
+          "runtimes/win-arm64/native/libHarfBuzzSharp.dll": {
+            "rid": "win-arm64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x64/native/libHarfBuzzSharp.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x86/native/libHarfBuzzSharp.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "Microsoft.Win32.SystemEvents/6.0.0": {
+        "runtime": {
+          "lib/net6.0/Microsoft.Win32.SystemEvents.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.52210"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/net6.0/Microsoft.Win32.SystemEvents.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.52210"
+          }
+        }
+      },
+      "Spire.Barcode/7.5.0": {
+        "dependencies": {
+          "HarfBuzzSharp": "8.3.0.1",
+          "System.Drawing.Common": "6.0.0",
+          "System.Text.Encoding.CodePages": "6.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/Spire.Barcode.dll": {
+            "assemblyVersion": "7.5.0.0",
+            "fileVersion": "7.5.0.9360"
+          }
+        }
+      },
+      "Spire.Doc/13.12.6": {
+        "dependencies": {
+          "HarfBuzzSharp": "8.3.0.1",
+          "System.Drawing.Common": "6.0.0",
+          "System.Text.Encoding.CodePages": "6.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/Spire.Doc.dll": {
+            "assemblyVersion": "13.12.6.0",
+            "fileVersion": "13.12.6.3360"
+          }
+        }
+      },
+      "Spire.Email/6.8.1": {
+        "dependencies": {
+          "HarfBuzzSharp": "8.3.0.1",
+          "System.Drawing.Common": "6.0.0",
+          "System.Text.Encoding.CodePages": "6.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/Spire.Email.dll": {
+            "assemblyVersion": "6.8.0.0",
+            "fileVersion": "6.8.0.10360"
+          }
+        }
+      },
+      "Spire.Office/10.12.0": {
+        "dependencies": {
+          "Spire.Barcode": "7.5.0",
+          "Spire.Doc": "13.12.6",
+          "Spire.Email": "6.8.1",
+          "Spire.PDF": "11.12.7",
+          "Spire.Presentation": "10.12.0",
+          "Spire.XLS": "15.12.0"
+        }
+      },
+      "Spire.PDF/11.12.7": {
+        "dependencies": {
+          "HarfBuzzSharp": "8.3.0.1",
+          "System.Drawing.Common": "6.0.0",
+          "System.Text.Encoding.CodePages": "6.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/Spire.Pdf.dll": {
+            "assemblyVersion": "11.12.7.0",
+            "fileVersion": "11.12.7.1360"
+          }
+        }
+      },
+      "Spire.Presentation/10.12.0": {
+        "dependencies": {
+          "HarfBuzzSharp": "8.3.0.1",
+          "System.Drawing.Common": "6.0.0",
+          "System.Text.Encoding.CodePages": "6.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/Spire.Presentation.dll": {
+            "assemblyVersion": "10.12.3.0",
+            "fileVersion": "10.12.3.6360"
+          }
+        }
+      },
+      "Spire.XLS/15.12.0": {
+        "dependencies": {
+          "HarfBuzzSharp": "8.3.0.1",
+          "System.Drawing.Common": "6.0.0",
+          "System.Text.Encoding.CodePages": "6.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/Spire.XLS.dll": {
+            "assemblyVersion": "15.12.2.0",
+            "fileVersion": "15.12.2.5360"
+          }
+        }
+      },
+      "System.Drawing.Common/6.0.0": {
+        "dependencies": {
+          "Microsoft.Win32.SystemEvents": "6.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/System.Drawing.Common.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.52210"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/unix/lib/net6.0/System.Drawing.Common.dll": {
+            "rid": "unix",
+            "assetType": "runtime",
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.52210"
+          },
+          "runtimes/win/lib/net6.0/System.Drawing.Common.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.52210"
+          }
+        }
+      },
+      "System.Runtime.CompilerServices.Unsafe/6.0.0": {
+        "runtime": {
+          "lib/net6.0/System.Runtime.CompilerServices.Unsafe.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.52210"
+          }
+        }
+      },
+      "System.Text.Encoding.CodePages/6.0.0": {
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/System.Text.Encoding.CodePages.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.52210"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/net6.0/System.Text.Encoding.CodePages.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.52210"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "HarfBuzzSharp/8.3.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-rwLpl+W6uqu0DuvzqNhTMuFcXfy1Vc0uq0YXgPEmtTSfeUSAye1FcARrm2YIPOSiCBwBOGu3cLvMX5Fp6OKe2g==",
+      "path": "harfbuzzsharp/8.3.0.1",
+      "hashPath": "harfbuzzsharp.8.3.0.1.nupkg.sha512"
+    },
+    "HarfBuzzSharp.NativeAssets.macOS/8.3.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-2o6U05LAmK+rwX7TvmJ2X0anXJG2hSE7kHVmCshhHy0tKfByJ5ykBacvhmmooHchlOwq15KBZeROGafCT8nN+g==",
+      "path": "harfbuzzsharp.nativeassets.macos/8.3.0.1",
+      "hashPath": "harfbuzzsharp.nativeassets.macos.8.3.0.1.nupkg.sha512"
+    },
+    "HarfBuzzSharp.NativeAssets.Win32/8.3.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ow0DtGEUjo65qhiI22of7qiVbN1xDFsZ5P5xJljRmGZ5WSxNy+1batLNJFGxahqhB1MTHYV8kAXf0GqC8WaevQ==",
+      "path": "harfbuzzsharp.nativeassets.win32/8.3.0.1",
+      "hashPath": "harfbuzzsharp.nativeassets.win32.8.3.0.1.nupkg.sha512"
+    },
+    "Microsoft.Win32.SystemEvents/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-hqTM5628jSsQiv+HGpiq3WKBl2c8v1KZfby2J6Pr7pEPlK9waPdgEO6b8A/+/xn/yZ9ulv8HuqK71ONy2tg67A==",
+      "path": "microsoft.win32.systemevents/6.0.0",
+      "hashPath": "microsoft.win32.systemevents.6.0.0.nupkg.sha512"
+    },
+    "Spire.Barcode/7.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-JF4GNP9B69HioGROIrxRlLZivvJ/onZjoRpL1LkJMBmw8IH4KiYU2Qn1APeClTc2sOElD21bSsLSHknHQd3aOw==",
+      "path": "spire.barcode/7.5.0",
+      "hashPath": "spire.barcode.7.5.0.nupkg.sha512"
+    },
+    "Spire.Doc/13.12.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-MZceYpJsyGgjJiTkAjCsgPzeKVQy7bpv6yDAijLzdoAR872Lp0mJfSWGL5RRaSkGdp8heIzevEB8r//RatvPOQ==",
+      "path": "spire.doc/13.12.6",
+      "hashPath": "spire.doc.13.12.6.nupkg.sha512"
+    },
+    "Spire.Email/6.8.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-8D2UUErTKVHILhnUy72f/ujDWBV8pU6NzqXSgvlh4BJL5lYXfSXzINe8Av657kJc8d+8Ehw4qgEx4/ZWJmnOTg==",
+      "path": "spire.email/6.8.1",
+      "hashPath": "spire.email.6.8.1.nupkg.sha512"
+    },
+    "Spire.Office/10.12.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-khHBhv61L69wWFpjNzFlqevJ1OvonV6+DRg5RTQmJKJE3A0pL+kV9Wt2tazT4m7FIBAx6XV0QZ8v7tCfwrCthQ==",
+      "path": "spire.office/10.12.0",
+      "hashPath": "spire.office.10.12.0.nupkg.sha512"
+    },
+    "Spire.PDF/11.12.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-LjJ2G7jQQYAYbA3AZM2M0ALc9ljk6YZ2Zym63zUOUA0nTTc8Dzx8ZOu1m7ObQCoY3W93OgHN+L4ilxr+8nObGw==",
+      "path": "spire.pdf/11.12.7",
+      "hashPath": "spire.pdf.11.12.7.nupkg.sha512"
+    },
+    "Spire.Presentation/10.12.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-lmB5MgbCmXOAyBQtBT+VzK8lG7p9G50SQ99k4ccPGsS6SWXtusMc3sh/+16hhZKrLrUy1mRvbwLAqNUZuem0tA==",
+      "path": "spire.presentation/10.12.0",
+      "hashPath": "spire.presentation.10.12.0.nupkg.sha512"
+    },
+    "Spire.XLS/15.12.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-MBuIKsRh1ARmBU1sFeddM4y2DB7iz8+3nLuSiHJd1DY1wVrPShxD4Ie51wOKU+tYyVWUfNNc8KVO6exnqaZ+Ug==",
+      "path": "spire.xls/15.12.0",
+      "hashPath": "spire.xls.15.12.0.nupkg.sha512"
+    },
+    "System.Drawing.Common/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-NfuoKUiP2nUWwKZN6twGqXioIe1zVD0RIj2t976A+czLHr2nY454RwwXs6JU9Htc6mwqL6Dn/nEL3dpVf2jOhg==",
+      "path": "system.drawing.common/6.0.0",
+      "hashPath": "system.drawing.common.6.0.0.nupkg.sha512"
+    },
+    "System.Runtime.CompilerServices.Unsafe/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/iUeP3tq1S0XdNNoMz5C9twLSrM/TH+qElHkXWaPvuNOt+99G75NrV0OS2EqHx5wMN7popYjpc8oTjC1y16DLg==",
+      "path": "system.runtime.compilerservices.unsafe/6.0.0",
+      "hashPath": "system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+    },
+    "System.Text.Encoding.CodePages/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ZFCILZuOvtKPauZ/j/swhvw68ZRi9ATCfvGbk1QfydmcXBkIWecWKn/250UH7rahZ5OoDBaiAudJtPvLwzw85A==",
+      "path": "system.text.encoding.codepages/6.0.0",
+      "hashPath": "system.text.encoding.codepages.6.0.0.nupkg.sha512"
+    }
+  }
+}
