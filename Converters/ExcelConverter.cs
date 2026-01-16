@@ -5,7 +5,7 @@ namespace FileConverter.Converters
 {
     public class ExcelConverter : IConverter
     {
-        public void ConvertInternal(string inputPath, string outputPath, string outputExtension)
+        public void Convert(string inputPath, string outputPath, string outputExtension)
         {
             try
             {

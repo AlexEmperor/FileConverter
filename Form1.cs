@@ -14,10 +14,15 @@ namespace FileConverter
             var extensionBeforeConvert = comboBox_FirstExtensions.Text;
             var extensionAfterConvert = comboBox_Extensions.Text;
 
-            var list = Conversion.GetConversionParameters(extensionBeforeConvert, extensionAfterConvert);
-            var converter = Conversion.GetConverter(extensionBeforeConvert);
+            var list = ConversionService.GetConversionParameters(extensionBeforeConvert, extensionAfterConvert);
 
-            converter.ConvertInternal(list[0], list[1], list[2]);
+            if (list.Count == 0)
+            {
+                return;
+            }
+
+            var converter = ConversionService.GetConverter(extensionBeforeConvert);
+            converter.Convert(list[0], list[1], list[2]);
         }
     }
 }

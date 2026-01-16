@@ -5,6 +5,18 @@
     {
       "AbsoluteMoniker": "D:0:0:{8DB29818-9A83-4FEC-8E80-1E74F827F6C1}|FileConverter.csproj|c:\\git\\fileconverter\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8DB29818-9A83-4FEC-8E80-1E74F827F6C1}|FileConverter.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DB29818-9A83-4FEC-8E80-1E74F827F6C1}|FileConverter.csproj|c:\\git\\fileconverter\\converters\\markdownconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8DB29818-9A83-4FEC-8E80-1E74F827F6C1}|FileConverter.csproj|solutionrelative:converters\\markdownconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DB29818-9A83-4FEC-8E80-1E74F827F6C1}|FileConverter.csproj|c:\\git\\fileconverter\\converters\\conversionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8DB29818-9A83-4FEC-8E80-1E74F827F6C1}|FileConverter.csproj|solutionrelative:converters\\conversionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DB29818-9A83-4FEC-8E80-1E74F827F6C1}|FileConverter.csproj|c:\\git\\fileconverter\\converters\\wordconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8DB29818-9A83-4FEC-8E80-1E74F827F6C1}|FileConverter.csproj|solutionrelative:converters\\wordconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,13 +62,52 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "WordConverter.cs",
+              "DocumentMoniker": "C:\\Git\\FileConverter\\Converters\\WordConverter.cs",
+              "RelativeDocumentMoniker": "Converters\\WordConverter.cs",
+              "ToolTip": "C:\\Git\\FileConverter\\Converters\\WordConverter.cs",
+              "RelativeToolTip": "Converters\\WordConverter.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-16T17:37:55.904Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ConversionService.cs",
+              "DocumentMoniker": "C:\\Git\\FileConverter\\Converters\\ConversionService.cs",
+              "RelativeDocumentMoniker": "Converters\\ConversionService.cs",
+              "ToolTip": "C:\\Git\\FileConverter\\Converters\\ConversionService.cs",
+              "RelativeToolTip": "Converters\\ConversionService.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAQwAkAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-16T17:36:50.322Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MarkDownConverter.cs",
+              "DocumentMoniker": "C:\\Git\\FileConverter\\Converters\\MarkDownConverter.cs",
+              "RelativeDocumentMoniker": "Converters\\MarkDownConverter.cs",
+              "ToolTip": "C:\\Git\\FileConverter\\Converters\\MarkDownConverter.cs",
+              "RelativeToolTip": "Converters\\MarkDownConverter.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAgwGYAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-16T17:01:15.638Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Git\\FileConverter\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
               "ToolTip": "C:\\Git\\FileConverter\\Form1.cs",
               "RelativeToolTip": "Form1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-15T10:50:04.398Z",
               "EditorCaption": ""

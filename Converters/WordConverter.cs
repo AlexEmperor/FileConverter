@@ -4,9 +4,9 @@ using Spire.Doc.Documents;
 
 namespace FileConverter.Converters
 {
-    public class TextConverter : IConverter
+    public class WordConverter : IConverter
     {
-        public void ConvertInternal(string filePath, string outputPath, string outputExtension)
+        public void Convert(string filePath, string outputPath, string outputExtension)
         {
             try
             {
@@ -14,7 +14,7 @@ namespace FileConverter.Converters
                 var document = new Document();
 
                 // 2. Download a path to file
-                document.LoadFromFile(filePath, FileFormat.Markdown);
+                document.LoadFromFile(filePath);
 
                 Section section = document.Sections[0];
 
@@ -32,7 +32,6 @@ namespace FileConverter.Converters
                 FileFormat targetFormat = outputExtension.ToLower() switch
                 {
                     ".pdf" => FileFormat.PDF,
-                    ".docx" => FileFormat.Docx,
                     ".html" => FileFormat.Html,
                     ".txt" => FileFormat.Txt,
                     _ => throw new NotSupportedException($"Unsupported format: {outputExtension}")

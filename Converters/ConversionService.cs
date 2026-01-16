@@ -2,7 +2,7 @@
 
 namespace FileConverter.Converters
 {
-    public static class Conversion
+    public static class ConversionService
     {
         public static List<string> GetConversionParameters(string inputExtension, string outputExtension)
         {
@@ -18,7 +18,7 @@ namespace FileConverter.Converters
 
             string inputPath = openFileDialog.FileName;
 
-            // 2. Save dialog
+            // 2. Save file
             using var saveFileDialog = new SaveFileDialog();
             saveFileDialog.Filter = $"{outputExtension} files|*{outputExtension}";
             saveFileDialog.Title = "Save converted file";
@@ -38,9 +38,10 @@ namespace FileConverter.Converters
         {
             return inputExtension.ToLower() switch
             {
-                ".md" or ".docx" => new TextConverter(),
+                ".md" => new MarkDownConverter(),
+                ".docx" => new WordConverter(),
                 ".xlsx" => new ExcelConverter(),
-                ".pptx" => new PresentationConverter(),
+                ".pptx" => new PowerPointConverter(),
                 ".pdf" => new PdfConverter(),
                 _ => throw new NotSupportedException($"No converter for {inputExtension}")
             };

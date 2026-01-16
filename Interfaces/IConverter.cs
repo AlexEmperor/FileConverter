@@ -2,6 +2,6 @@
 {
     public interface IConverter
     {
-        void ConvertInternal(string inputPath, string outputPath, string outputExtension);
+        void Convert(string inputPath, string outputPath, string outputExtension);
     }
 }

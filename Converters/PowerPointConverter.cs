@@ -3,9 +3,9 @@ using Spire.Presentation;
 
 namespace FileConverter.Converters
 {
-    public class PresentationConverter : IConverter
+    public class PowerPointConverter : IConverter
     {
-        public void ConvertInternal(string inputPath, string outputPath, string outputExtension)
+        public void Convert(string inputPath, string outputPath, string outputExtension)
         {
             try
             {
